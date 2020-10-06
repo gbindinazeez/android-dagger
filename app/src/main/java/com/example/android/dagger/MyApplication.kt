@@ -29,7 +29,7 @@ open class MyApplication : Application() {
     }
 
 
-    open val userManager by lazy {
+/*    open val userManager by lazy {
         UserManager(SharedPreferencesStorage(this))
-    }
+    }*/
 }
